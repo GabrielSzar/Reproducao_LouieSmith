@@ -1,0 +1,71 @@
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 180px;
+}
+.contact-content-row {
+    display: flex;
+    gap: 40px;
+    padding-top: 50px;
+}
+.contact-adress {
+    height: 144px;
+    max-width: 290px;
+    width: 100%;
+    padding: 24px;
+    background-color: #f8f9fa;
+}
+.contact-adress p {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 500;
+}
+.form-maps {
+    display: flex;
+    gap: 40px;
+    padding: 40px 0px;
+}
+.form-maps form {
+    height: 540px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #f8f9fa;
+    padding: 48px;
+}
+.form-maps form input {
+    height: 52px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ced4da;
+    margin: 8px 0px;
+    padding: 8px;
+}
+.form-maps textarea {
+    height: 170px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ced4da;
+    margin: 8px 0px;
+    padding: 8px;
+}
+#submit {
+    border: 1px solid #ccb78f;
+    background: #ccb78f;
+    color: white;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0;
+    height: 58px;
+}
+#submit:hover {
+    transition: all 0.3s;
+    border: 1px solid #ccb78f;
+    background: transparent;
+    color: #ccb78f;
+}
+.maps {
+    height: 540px;
+    width: 50%;
+    background-color: gray;
+}

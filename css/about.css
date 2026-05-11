@@ -1,0 +1,27 @@
+.imgMain {
+    background: url(../Imgs/author.jpg);
+    max-width: 80vh;
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.numbers {
+    background: #242423;
+    padding: 80px 150px;
+}
+.numbers-content {
+    display: flex;
+    gap: 40px;
+}
+.numbers-content h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #ccb78f;
+}
+.numbers-content p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}

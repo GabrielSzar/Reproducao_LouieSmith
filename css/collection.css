@@ -1,0 +1,55 @@
+.section-photos {
+    max-width: 450px;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    margin: 15px;
+}
+.section-photos-row {
+    display: flex;
+}
+.img9 {
+    background: url(../Imgs/image_9.jpg);
+}
+.img10 {
+    background: url(../Imgs/image_10.jpg);
+}
+.img11 {
+    background: url(../Imgs/image_11.jpg);
+}
+.img12 {
+    background: url(../Imgs/image_12.jpg);
+}
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 12px;
+}
+.section-photos:hover .overlay {
+    transition: all 0.3s;
+    opacity: 0.7;
+}
+.section-photos:hover .overlay h1 {
+    transition: all 0.3s;
+    opacity: 1;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.section-photos:hover .overlay p {
+    transition: all 0.3s;
+    opacity: 1;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 5px 0px;
+}

@@ -1,0 +1,55 @@
+.content-row {
+    display: flex;
+}
+.service-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.content {
+    height: 288px;
+    max-width: 380px;
+    width: 100%;
+    padding: 24px 25px;
+}
+.content h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 14px 0px;
+    line-height: 1.5;
+}
+.content p {
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #999999;
+}
+.camera {
+    background: url(../Imgs/camera-icon.png) whitesmoke;
+}
+.printer {
+    background: url(../Imgs/printer.png) whitesmoke;
+}
+.client {
+    background: url(../Imgs/client.png) whitesmoke;
+}
+.studio {
+    background: url(../Imgs/studio.png) whitesmoke;
+}
+.pictures {
+    background: url(../Imgs/pictures.png) whitesmoke;
+}
+.old-fill-roll {
+    background: url(../Imgs/old-fill-roll.png) whitesmoke;
+}
