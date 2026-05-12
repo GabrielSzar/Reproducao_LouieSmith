@@ -168,6 +168,7 @@
     text-transform: uppercase;
     border-radius: 4px;
     line-height: 20px;
+    display: inline-block;
 }
 .filter-newsletter{
     background: url(../Imgs/bg_1.jpg);
